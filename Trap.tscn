@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/trampa.png" type="Texture" id=1]
+[ext_resource path="res://Trap.gd" type="Script" id=2]
+
+[node name="Trap" type="RigidBody2D"]
+collision_layer = 2147483656
+collision_mask = 17
+mass = 5.0
+can_sleep = false
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PoolVector2Array( -175.998, -83.2597, -152.774, -83.6343, -152.774, -12.8392, -13.0568, -13.2138, -11.5585, -59.6613, 11.6653, -59.6613, 12.789, -13.2138, 224.05, -12.4647, 223.676, 105.527, 199.703, 105.152, 198.954, 11.1337, 11.2907, 11.8828, 12.4144, 80.805, -11.5585, 80.805, -11.5585, 10.7591, -177.121, 11.1337 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 23.5451, 10.9317 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." groups=[
+"bodies",
+]]
+visible = false
+polygon = PoolVector2Array( -177.207, -83.2977, -152.602, -84.0914, -152.205, -13.0552, -13.3079, -13.0552, -12.5142, -59.8835, 12.8842, -59.8835, 12.8842, -12.6583, 224.405, -13.0552, 224.539, 106.779, 199.054, 105.835, 197.638, 11.4477, 13.1109, 12.3916, 12.6389, 81.2944, -12.1173, 81.792, -11.7205, 11.1527, -177.207, 11.9464 )
