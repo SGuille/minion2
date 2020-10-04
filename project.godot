@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Minion2"
-config/icon="res://icon.png"
+config/icon="res://assets/icon.png"
 
 [input]
 
@@ -33,4 +33,4 @@ jump={
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://scenes/default_env.tres"

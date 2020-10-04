@@ -1,9 +1,5 @@
 extends CanvasLayer
 
-func _ready():
-	#_hide()
-	pass
-
 func _hide():
 	$GameOver.visible = false
 	$Menu.visible = false

@@ -1,16 +1,16 @@
 [gd_scene load_steps=26 format=2]
 
-[ext_resource path="res://GameOverHUD.gd" type="Script" id=1]
+[ext_resource path="res://scenes/GameOverHUD.gd" type="Script" id=1]
 [ext_resource path="res://assets/background/bluemoon.png" type="Texture" id=2]
-[ext_resource path="res://WelcomeHUD.gd" type="Script" id=4]
+[ext_resource path="res://scenes/WelcomeHUD.gd" type="Script" id=4]
 [ext_resource path="res://fonts/minecraft-evenings/Minecraft Evenings.otf" type="DynamicFontData" id=5]
 [ext_resource path="res://fonts/crackman/crackman.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://sounds/bensound-house.wav" type="AudioStream" id=8]
-[ext_resource path="res://OptionsHUD.gd" type="Script" id=9]
-[ext_resource path="res://DifficultyHUD.gd" type="Script" id=10]
-[ext_resource path="res://AudioHUD.gd" type="Script" id=11]
+[ext_resource path="res://scenes/OptionsHUD.gd" type="Script" id=9]
+[ext_resource path="res://scenes/DifficultyHUD.gd" type="Script" id=10]
+[ext_resource path="res://scenes/AudioHUD.gd" type="Script" id=11]
 [ext_resource path="res://sounds/error_003.wav" type="AudioStream" id=12]
-[ext_resource path="res://Main.gd" type="Script" id=13]
+[ext_resource path="res://scenes/Main.gd" type="Script" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 70

@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://sounds/winch/winch - Marker #7.wav" type="AudioStream" id=1]
-[ext_resource path="res://Chains.gd" type="Script" id=3]
+[ext_resource path="res://scenes/Chains.gd" type="Script" id=3]
 [ext_resource path="res://assets/cadena3a.png" type="Texture" id=7]
 [ext_resource path="res://assets/punto_fijo2.png" type="Texture" id=8]
 [ext_resource path="res://assets/cadena3b.png" type="Texture" id=9]
